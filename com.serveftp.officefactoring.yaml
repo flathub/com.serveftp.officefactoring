@@ -26,5 +26,5 @@ modules:
         /app/share/applications/com.serveftp.officefactoring.desktop
     sources:
       - type: archive
-        url: http://officefactoring.serveftp.com/demo/OfficeFactoring-1.tar.gz
-        sha256: ab0836f31d7803eb552256daecd9bb0cfbb18c1290fa814412899f53b65a26ac
+        url: http://officefactoring.serveftp.com/demo/OfficeFactoring-2.tar.gz
+        sha256: 7533b1d11c0a30f6ab5b31ea6bd5db51d74cfb42ec8e930bd051a9891de61bed
