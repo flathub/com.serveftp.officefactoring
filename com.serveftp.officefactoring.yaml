@@ -27,4 +27,4 @@ modules:
     sources:
       - type: archive
         url: http://officefactoring.serveftp.com/demo/OfficeFactoring-2.tar.gz
-        sha256: 7533b1d11c0a30f6ab5b31ea6bd5db51d74cfb42ec8e930bd051a9891de61bed
+        sha256: 62da0311f7ecf6cf72e128e36b5b76620e8de4b877d08c92d9ebd9b1d0cec021
