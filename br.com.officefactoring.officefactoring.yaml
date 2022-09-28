@@ -1,0 +1,30 @@
+app-id: br.com.officefactoring.officefactoring
+runtime: org.freedesktop.Platform
+runtime-version: '21.08'
+sdk: org.freedesktop.Sdk
+rename-icon: officefactoring
+command: OfficeFactoring
+finish-args:
+  - '--socket=x11'
+  - '--share=ipc'
+  - '--share=network'
+  - '--filesystem=home'
+modules:
+  - name: OfficeFactoring
+    buildsystem: simple
+    build-commands:
+      - install -D OfficeFactoring /app/bin/OfficeFactoring
+      - install -D libmidas.so.2 /app/bin/libmidas.so.2
+      - >-
+        install -D officefactoring.png
+        /app/share/icons/hicolor/256x256/apps/officefactoring.png
+      - >-
+        install -D br.com.officefactoring.officefactoring.metainfo.xml
+        /app/share/metainfo/br.com.officefactoring.officefactoring.metainfo.xml
+      - >-
+        install -D br.com.officefactoring.officefactoring.desktop
+        /app/share/applications/br.com.officefactoring.officefactoring.desktop
+    sources:
+      - type: archive
+        url: http://officefactoring.com.br/demo/OfficeFactoring-2.tar.gz
+        sha256: b474d80628073dd256035f3543a296aa88914d20c77e7c8d3190fa452c0fe138
