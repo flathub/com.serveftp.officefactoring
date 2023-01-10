@@ -19,11 +19,11 @@ modules:
         install -D officefactoring.png
         /app/share/icons/hicolor/256x256/apps/officefactoring.png
       - >-
-        install -D br.com.officefactoring.officefactoring.metainfo.xml
-        /app/share/metainfo/br.com.officefactoring.officefactoring.metainfo.xml
+        install -D com.serveftp.officefactoring.metainfo.xml
+        /app/share/metainfo/com.serveftp.officefactoring.metainfo.xml
       - >-
-        install -D br.com.officefactoring.officefactoring.desktop
-        /app/share/applications/br.com.officefactoring.officefactoring.desktop
+        install -D com.serveftp.officefactoring.desktop
+        /app/share/applications/com.serveftp.officefactoring.desktop
     sources:
       - type: archive
         url: http://officefactoring.com.br/demo/OfficeFactoring-2.tar.gz
